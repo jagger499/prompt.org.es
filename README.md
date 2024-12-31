@@ -1,41 +1,44 @@
-# Website
+# Prompt.org.es 🚀
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Una plataforma educativa completa en español dedicada a la ingeniería de prompts y comunicación efectiva con modelos de IA.
 
-### Installation
+## 🎯 Sobre el Proyecto
 
-```
-$ yarn
-```
+Prompt.org.es es un recurso integral para aprender el arte de la ingeniería de prompts, desde conceptos básicos hasta técnicas avanzadas. Nuestra plataforma está construida con [Docusaurus](https://docusaurus.io/) y ofrece:
 
-### Local Development
+### 📚 Contenido Principal
 
-```
-$ yarn start
-```
+- **Fundamentos de Prompting**: Conceptos básicos y mejores prácticas
+- **Chain of Thought**: Razonamiento paso a paso
+- **Few-Shot Learning**: Aprendizaje mediante ejemplos
+- **Role Prompting**: Asignación de roles específicos
+- **Zero-Shot Prompting**: Instrucciones directas sin ejemplos
+- **Self-Consistency**: Validación de respuestas
+- **Recursive Prompting**: División de problemas complejos
+- **Template Prompting**: Uso de plantillas estructuradas
+- **Metacognitive Prompting**: Análisis del proceso de pensamiento
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+### 🌟 Características
 
-### Build
+- Tutoriales detallados en español
+- Ejemplos prácticos y casos de uso
+- Guías paso a paso
+- Recursos actualizados regularmente
+- Contenido para todos los niveles
 
-```
-$ yarn build
-```
+## 🔗 Enlaces Útiles
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+- [Sitio Web](https://www.prompt.org.es)
+- [Tutoriales](https://www.prompt.org.es/docs/intro)
+- [GitHub](https://github.com/jagger499/prompt.org.es)
 
-### Deployment
+## 📖 Referencias
 
-Using SSH:
+- OpenAI. (2024). "Best Practices in Prompt Design"
+- Anthropic. (2024). "Claude's Guide to Effective Prompting"
+- Stanford AI Lab. (2024). "The Impact of Metacognitive Prompting on AI Response Quality"
+- Journal of AI Applications. (2024). "The Art of Prompt Engineering"
 
-```
-$ USE_SSH=true yarn deploy
-```
+## 📝 Licencia
 
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Copyright © 2024 Prompt.org.es - Todos los derechos reservados

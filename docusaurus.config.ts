@@ -16,7 +16,7 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'tu-usuario-github', // Usually your GitHub org/user name.
+  organizationName: 'jagger499', // Usually your GitHub org/user name.
   projectName: 'prompt.org.es', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -36,7 +36,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/tu-usuario/prompt.org.es/tree/main/',
+          editUrl: 'https://github.com/jagger499/prompt.org.es/tree/main/',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           breadcrumbs: true,
@@ -52,7 +52,7 @@ const config: Config = {
             copyright: `Copyright © ${new Date().getFullYear()} Prompt.org.es`,
             language: 'es',
           },
-          editUrl: 'https://github.com/tu-usuario/prompt.org.es/tree/main/',
+          editUrl: 'https://github.com/jagger499/prompt.org.es/tree/main/',
           blogTitle: 'Blog de Ingeniería de Prompts',
           blogDescription: 'Tutoriales, guías y recursos sobre ingeniería de prompts, IA y procesamiento de lenguaje natural',
           postsPerPage: 10,
@@ -99,7 +99,7 @@ const config: Config = {
           to: '/docs/introduccion-prompting-guia-completa'
         },
         {
-          href: 'https://github.com/tu-usuario/prompt.org.es',
+          href: 'https://github.com/jagger499/prompt.org.es',
           label: 'GitHub',
           position: 'right',
         },
@@ -126,7 +126,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/tu-usuario/prompt.org.es',
+              href: 'https://github.com/jagger499/prompt.org.es',
             },
           ],
         },
