@@ -1,67 +1,98 @@
-import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
-  description: JSX.Element;
+  description: string;
+  icon: string;
+  link: string;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
+    title: 'Fundamentos de Prompting',
+    description: 'Aprende los conceptos básicos de la ingeniería de prompts y cómo comunicarte efectivamente con modelos de IA. Descubre las mejores prácticas y técnicas fundamentales para crear instrucciones precisas y obtener resultados óptimos.',
+    icon: '🎯',
+    link: '/docs/prompt-basics/intro'
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
+    title: 'Chain of Thought',
+    description: 'Domina el arte del razonamiento paso a paso. Aprende a guiar a la IA a través de procesos de pensamiento estructurados para obtener respuestas más precisas y fundamentadas.',
+    icon: '🔄',
+    link: '/docs/prompt-basics/chain-of-thought'
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
+    title: 'Few-Shot Learning',
+    description: 'Explora cómo enseñar a la IA mediante ejemplos. Aprende a proporcionar casos de muestra efectivos para mejorar la precisión y relevancia de las respuestas.',
+    icon: '🎓',
+    link: '/docs/prompt-basics/few-shot'
   },
+  {
+    title: 'Role Prompting',
+    description: 'Descubre cómo asignar roles específicos a la IA para obtener respuestas más especializadas. Aprende a aprovechar diferentes perspectivas de expertos para mejorar la calidad de las respuestas.',
+    icon: '🎭',
+    link: '/docs/prompt-basics/role-prompting'
+  },
+  {
+    title: 'Zero-Shot Prompting',
+    description: 'Aprende a obtener resultados precisos sin necesidad de ejemplos previos. Domina el arte de crear instrucciones claras y directas para tareas específicas.',
+    icon: '🎯',
+    link: '/docs/prompt-basics/zero-shot-prompting-guia-completa'
+  },
+  {
+    title: 'Self-Consistency',
+    description: 'Explora técnicas para obtener respuestas consistentes y confiables. Aprende a validar y verificar la coherencia de las respuestas de la IA.',
+    icon: '🔄',
+    link: '/docs/prompt-basics/self-consistency-prompting-guia-completa'
+  },
+  {
+    title: 'Recursive Prompting',
+    description: 'Domina el arte de dividir problemas complejos en subtareas manejables. Aprende a abordar desafíos paso a paso para obtener soluciones más completas.',
+    icon: '📝',
+    link: '/docs/prompt-basics/recursive-prompting-guia-completa'
+  },
+  {
+    title: 'Template Prompting',
+    description: 'Descubre cómo usar plantillas estructuradas para crear prompts efectivos. Optimiza tus interacciones mediante patrones probados y documentados.',
+    icon: '📋',
+    link: '/docs/prompt-basics/template-prompting-guia-completa'
+  },
+  {
+    title: 'Metacognitive Prompting',
+    description: 'Profundiza en técnicas para entender el proceso de pensamiento de la IA. Aprende a obtener explicaciones detalladas sobre el razonamiento detrás de las respuestas.',
+    icon: '🤔',
+    link: '/docs/prompt-basics/metacognitive-prompting-guia-completa'
+  },
+  {
+    title: 'Contrarian Prompting',
+    description: 'Explora diferentes perspectivas y argumentos opuestos. Aprende a obtener análisis más equilibrados y completos considerando múltiples puntos de vista.',
+    icon: '⚖️',
+    link: '/docs/prompt-basics/contrarian-prompting'
+  }
 ];
-
-function Feature({title, Svg, description}: FeatureItem) {
-  return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
-      </div>
-    </div>
-  );
-}
 
 export default function HomepageFeatures(): JSX.Element {
   return (
     <section className={styles.features}>
       <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
+        <div className={styles.introduction}>
+          <h2>Descubre el poder de la ingeniería de prompts con nuestra guía definitiva en español.</h2>
+          <p>
+            Navega por una colección de recursos premium, tutoriales interactivos y ejemplos del 
+            mundo real que transformarán tu manera de comunicarte con la IA. Desde conceptos 
+            básicos hasta técnicas avanzadas, te acompañamos en cada paso para convertirte 
+            en un experto en la creación de prompts efectivos.
+          </p>
+        </div>
+        <div className={styles.grid}>
+          {FeatureList.map((feature) => (
+            <div key={feature.title} className={styles.featureCard}>
+              <a href={feature.link} className={styles.featureLink}>
+                <div className={styles.featureIcon}>{feature.icon}</div>
+                <Heading as="h3">{feature.title}</Heading>
+                <p>{feature.description}</p>
+              </a>
+            </div>
           ))}
         </div>
       </div>

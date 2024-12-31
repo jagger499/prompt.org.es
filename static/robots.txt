@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.prompt.org.es/sitemap.xml 
