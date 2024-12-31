@@ -8,6 +8,8 @@ import Head from '@docusaurus/Head';
 
 import styles from './index.module.css';
 
+import { Analytics } from "@vercel/analytics/react"
+
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
 
@@ -43,6 +45,7 @@ function HomepageHeader() {
             wrapper="span"
           />
         </Heading>
+        <Analytics />
         <p className="hero__subtitle">{siteConfig.tagline}</p>
       </div>
     </header>
