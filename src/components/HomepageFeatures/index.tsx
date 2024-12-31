@@ -19,19 +19,19 @@ const FeatureList: FeatureItem[] = [
     title: 'Chain of Thought',
     description: 'Domina el arte del razonamiento paso a paso. Aprende a guiar a la IA a través de procesos de pensamiento estructurados para obtener respuestas más precisas y fundamentadas.',
     icon: '🔄',
-    link: '/docs/prompt-basics/chain-of-thought'
+    link: '/docs/prompt-basics/chain-of-thought-prompting-guia-completa'
   },
   {
     title: 'Few-Shot Learning',
     description: 'Explora cómo enseñar a la IA mediante ejemplos. Aprende a proporcionar casos de muestra efectivos para mejorar la precisión y relevancia de las respuestas.',
     icon: '🎓',
-    link: '/docs/prompt-basics/few-shot'
+    link: '/docs/prompt-basics/few-shot-prompting-guia-completa'
   },
   {
     title: 'Role Prompting',
     description: 'Descubre cómo asignar roles específicos a la IA para obtener respuestas más especializadas. Aprende a aprovechar diferentes perspectivas de expertos para mejorar la calidad de las respuestas.',
     icon: '🎭',
-    link: '/docs/prompt-basics/role-prompting'
+    link: '/docs/prompt-basics/role-prompting-guia-completa'
   },
   {
     title: 'Zero-Shot Prompting',
@@ -67,7 +67,7 @@ const FeatureList: FeatureItem[] = [
     title: 'Contrarian Prompting',
     description: 'Explora diferentes perspectivas y argumentos opuestos. Aprende a obtener análisis más equilibrados y completos considerando múltiples puntos de vista.',
     icon: '⚖️',
-    link: '/docs/prompt-basics/contrarian-prompting'
+    link: '/docs/prompt-basics/contrarian-prompting-guia-completa'
   }
 ];
 
