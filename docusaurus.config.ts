@@ -3,22 +3,21 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
-
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'Prompt.org.es - Aprende Ingeniería de Prompts en Español',
+  tagline: 'Aprende sobre ingeniería de prompts, inteligencia artificial y procesamiento de lenguaje natural. Tutoriales, guías y recursos en español.',
+  favicon: 'img/logo.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://www.prompt.org.es/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'tu-usuario-github', // Usually your GitHub org/user name.
+  projectName: 'prompt.org.es', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -27,8 +26,8 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'es',
+    locales: ['es'],
   },
 
   presets: [
@@ -37,40 +36,58 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/tu-usuario/prompt.org.es/tree/main/',
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
+          breadcrumbs: true,
         },
         blog: {
           showReadingTime: true,
+          readingTime: ({content, frontMatter, defaultReadingTime}) =>
+            defaultReadingTime({content, options: {wordsPerMinute: 300}}),
           feedOptions: {
             type: ['rss', 'atom'],
-            xslt: true,
+            title: 'Prompt.org.es - Blog sobre Ingeniería de Prompts',
+            description: 'Últimas actualizaciones y tutoriales sobre ingeniería de prompts, IA y PLN',
+            copyright: `Copyright © ${new Date().getFullYear()} Prompt.org.es`,
+            language: 'es',
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
+          editUrl: 'https://github.com/tu-usuario/prompt.org.es/tree/main/',
+          blogTitle: 'Blog de Ingeniería de Prompts',
+          blogDescription: 'Tutoriales, guías y recursos sobre ingeniería de prompts, IA y procesamiento de lenguaje natural',
+          postsPerPage: 10,
         },
         theme: {
           customCss: './src/css/custom.css',
+        },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
         },
       } satisfies Preset.Options,
     ],
   ],
 
   themeConfig: {
-    // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    metadata: [
+      {name: 'keywords', content: 'prompting, ingeniería de prompts, ia, inteligencia artificial, tutoriales, gpt, machine learning, nlp, procesamiento lenguaje natural, prompt engineering, chatgpt, openai'},
+      {name: 'description', content: 'Aprende ingeniería de prompts con tutoriales prácticos y guías detalladas. Recursos en español sobre IA, procesamiento de lenguaje natural y prompt engineering.'},
+      {name: 'og:title', content: 'Prompt.org.es - Aprende Ingeniería de Prompts en Español'},
+      {name: 'og:description', content: 'Tutoriales y guías prácticas sobre ingeniería de prompts, IA y PLN en español'},
+      {name: 'og:type', content: 'website'},
+      {name: 'og:site_name', content: 'Prompt.org.es'},
+      {name: 'og:image', content: 'img/logo.png'},
+      {name: 'twitter:card', content: 'summary_large_image'},
+      {name: 'twitter:image', content: 'img/logo.png'},
+      {name: 'twitter:title', content: 'Prompt.org.es - Ingeniería de Prompts'},
+      {name: 'twitter:description', content: 'Aprende ingeniería de prompts con tutoriales prácticos y guías detalladas en español'},
+    ],
     navbar: {
-      title: 'My Site',
+      title: 'Prompt.org.es',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Prompt.org.es Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -78,11 +95,11 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Tutoriales',
+          to: '/docs/introduccion-prompting-guia-completa'
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/tu-usuario/prompt.org.es',
           label: 'GitHub',
           position: 'right',
         },
@@ -92,50 +109,38 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Contenido',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Tutoriales',
               to: '/docs/intro',
             },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: 'Prompt Basics',
+              to: '/docs/prompt-basics/intro',
             },
           ],
         },
         {
-          title: 'More',
+          title: 'Recursos',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/tu-usuario/prompt.org.es',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Prompt.org.es - Todos los derechos reservados`,
     },
     prism: {
-      theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
+      theme: prismThemes.vsLight,
+      darkTheme: prismThemes.vsDark,
+    },
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
     },
   } satisfies Preset.ThemeConfig,
 };
