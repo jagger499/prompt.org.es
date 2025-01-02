@@ -1,21 +1,16 @@
 User-agent: *
-Allow: /docs/prompt-basics/intro
-Allow: /docs/prompt-basics/chain-of-thought-prompting-guia-completa
-Allow: /docs/prompt-basics/few-shot-prompting-guia-completa
-Allow: /docs/prompt-basics/role-prompting-guia-completa
-Allow: /docs/prompt-basics/zero-shot-prompting-guia-completa
-Allow: /docs/prompt-basics/self-consistency-prompting-guia-completa
-Allow: /docs/prompt-basics/recursive-prompting-guia-completa
-Allow: /docs/prompt-basics/template-prompting-guia-completa
-Allow: /docs/prompt-basics/metacognitive-prompting-guia-completa
-Allow: /docs/prompt-basics/contrarian-prompting-guia-completa
+# Permitir rutas específicas de /docs/
+Allow: /docs/prompt-basics/
 Allow: /docs/introduccion-prompting-guia-completa
+
+# Permitir activos
 Allow: /assets/
 Allow: /img/
-Allow: /sitemap.xml
+
+# Disallow para rutas sensibles o internas
 Disallow: /admin/
 Disallow: /_next/
 Disallow: /api/
 
 # Sitemap
-Sitemap: https://www.prompt.org.es/sitemap.xml 
+Sitemap: https://www.prompt.org.es/sitemap.xml
