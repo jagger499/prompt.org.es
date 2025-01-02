@@ -74,6 +74,7 @@ const config: Config = {
     metadata: [
       {name: 'keywords', content: 'prompting, ingeniería de prompts, ia, inteligencia artificial, tutoriales, gpt, machine learning, nlp, procesamiento lenguaje natural, prompt engineering, chatgpt, openai'},
       {name: 'description', content: 'Aprende ingeniería de prompts con tutoriales prácticos y guías detalladas. Recursos en español sobre IA, procesamiento de lenguaje natural y prompt engineering.'},
+      {name: 'google-site-verification', content: 'wIJCtyoka3eS6grq65oWfQPomVw1iPINcjvaYwdVIKs'},
       {name: 'og:title', content: 'Prompt.org.es - Aprende Ingeniería de Prompts en Español'},
       {name: 'og:description', content: 'Tutoriales y guías prácticas sobre ingeniería de prompts, IA y PLN en español'},
       {name: 'og:type', content: 'website'},
