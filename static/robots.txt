@@ -1,3 +1,16 @@
 User-agent: *
-Allow: /
-Sitemap: https://www.prompt.org.es/sitemap.xml 
+# Permitir rutas específicas de /docs/
+Allow: /docs/prompt-basics/
+Allow: /docs/introduccion-prompting-guia-completa
+
+# Permitir activos
+Allow: /assets/
+Allow: /img/
+
+# Disallow para rutas sensibles o internas
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://www.prompt.org.es/sitemap.xml
