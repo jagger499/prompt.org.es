@@ -1,3 +1,21 @@
 User-agent: *
-Allow: /
+Allow: /docs/prompt-basics/intro
+Allow: /docs/prompt-basics/chain-of-thought-prompting-guia-completa
+Allow: /docs/prompt-basics/few-shot-prompting-guia-completa
+Allow: /docs/prompt-basics/role-prompting-guia-completa
+Allow: /docs/prompt-basics/zero-shot-prompting-guia-completa
+Allow: /docs/prompt-basics/self-consistency-prompting-guia-completa
+Allow: /docs/prompt-basics/recursive-prompting-guia-completa
+Allow: /docs/prompt-basics/template-prompting-guia-completa
+Allow: /docs/prompt-basics/metacognitive-prompting-guia-completa
+Allow: /docs/prompt-basics/contrarian-prompting-guia-completa
+Allow: /docs/introduccion-prompting-guia-completa
+Allow: /assets/
+Allow: /img/
+Allow: /sitemap.xml
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /api/
+
+# Sitemap
 Sitemap: https://www.prompt.org.es/sitemap.xml 
