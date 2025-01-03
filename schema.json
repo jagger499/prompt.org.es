@@ -1,0 +1,34 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Prompt.org.es",
+  "description": "Aprende ingeniería de prompts con tutoriales prácticos y guías detalladas. Recursos en español sobre IA, procesamiento de lenguaje natural y prompt engineering.",
+  "url": "https://www.prompt.org.es",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.prompt.org.es/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Prompt.org.es",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.prompt.org.es/img/logo.png"
+    }
+  },
+  "about": {
+    "@type": "Thing",
+    "name": "Ingeniería de Prompts",
+    "description": "Tutoriales y guías sobre ingeniería de prompts, inteligencia artificial y procesamiento de lenguaje natural en español"
+  },
+  "inLanguage": "es",
+  "copyrightYear": "2024",
+  "coursePrerequisites": "No se requieren conocimientos previos",
+  "educationalLevel": "Principiante a Avanzado",
+  "teaches": [
+    "Ingeniería de Prompts",
+    "Inteligencia Artificial",
+    "Procesamiento de Lenguaje Natural"
+  ]
+} 
