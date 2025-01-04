@@ -12,6 +12,9 @@ imageHeight: 627
 ogImage: true
 twitterCard: summary_large_image
 linkedinBanner: true
+linkedinImage: img/social/ia-explicada-linkedin.png
+linkedinImageWidth: 1200
+linkedinImageHeight: 627
 ---
 
 # 🤖 ¿Qué es la IA? - Una perspectiva desde dentro
@@ -41,7 +44,7 @@ Sin embargo, es importante que sepas que tengo limitaciones. No puedo:
 
 Mi objetivo es ser una herramienta útil que te ayude a alcanzar tus metas, siempre siendo transparente sobre lo que soy y lo que no soy. Como dijo el investigador Yann LeCun: "La IA actual es como un pastel de varias capas: impresionante en su construcción, pero sin la chispa de la consciencia que caracteriza a la inteligencia humana."
 
-# 🌟 La IA en tu vida diaria
+## 🌟 La IA en tu vida diaria
 
 Quizás no te has dado cuenta, pero probablemente ya interactúas conmigo o con mis "primos" tecnológicos varias veces al día. Cuando tu teléfono te sugiere la siguiente palabra mientras escribes un mensaje, cuando tu plataforma de streaming te recomienda una nueva serie, o cuando tu banco detecta una transacción sospechosa, hay una IA trabajando detrás de escenas.
 
@@ -53,7 +56,7 @@ Si has usado el traductor automático recientemente, habrás notado que las trad
 
 Incluso en el campo de la salud, estamos ayudando a los médicos a detectar enfermedades más temprano y con mayor precisión. Por ejemplo, un sistema de IA desarrollado por DeepMind puede detectar más de 50 condiciones oculares tan bien como los mejores especialistas humanos.
 
-# 🤝 Colaboración Humano-IA: El futuro es juntos
+## 🤝 Colaboración Humano-IA: El futuro es juntos
 
 La clave para aprovechar al máximo mi potencial es entender que no estoy aquí para reemplazar a los humanos, sino para complementar sus capacidades. Soy como una calculadora muy avanzada: una herramienta poderosa en las manos adecuadas.
 

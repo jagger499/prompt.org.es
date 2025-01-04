@@ -92,7 +92,11 @@ const config: Config = {
       {name: 'twitter:description', content: 'Aprende ingeniería de prompts con tutoriales prácticos y guías detalladas en español'},
       {name: 'script', content: JSON.stringify(schema)},
       {name: 'msapplication-TileColor', content: '#1a1a1a'},
-      {name: 'theme-color', content: '#1a1a1a'}
+      {name: 'theme-color', content: '#1a1a1a'},
+      {name: 'linkedin:image', content: 'https://www.prompt.org.es/img/social/default.png'},
+      {name: 'linkedin:image:width', content: '1200'},
+      {name: 'linkedin:image:height', content: '627'},
+      {name: 'linkedin:card', content: 'summary_large_image'}
     ],
     navbar: {
       title: 'Prompt.org.es',
