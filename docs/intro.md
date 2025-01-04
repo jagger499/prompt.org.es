@@ -4,7 +4,9 @@ slug: intro
 redirect_to: /docs/introduccion-prompting-guia-completa
 title: 🚀 Introducción a los Prompts - La guía definitiva para empezar
 authors: [admin]
-tags: [prompting, ia, introducción, tutoriales]
+tags: [prompting, ingeniería de prompts, ia, chatgpt, gpt-4, llm, inteligencia artificial, prompt engineering]
+description: Aprende qué es la ingeniería de prompts y cómo dominar el arte de comunicarte con la IA. Guía completa con ejemplos prácticos y técnicas actualizadas para 2024.
+keywords: [ingeniería de prompts, prompt engineering, ia, chatgpt, gpt-4, llm, inteligencia artificial, prompts efectivos]
 ---
 
 # Introducción a Prompt.org.es

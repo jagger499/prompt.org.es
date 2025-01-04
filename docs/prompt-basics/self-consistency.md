@@ -2,7 +2,9 @@
 slug: self-consistency-prompting-guia-completa
 title: 🔄 Self-Consistency Prompting - La guía definitiva para respuestas consistentes
 authors: [admin]
-tags: [prompting, ia, consistencia, tutoriales]
+tags: [prompting, ia, consistencia, tutoriales, self-consistency, prompt engineering, inteligencia artificial]
+description: Aprende a utilizar Self-Consistency Prompting para obtener respuestas más precisas y confiables de la IA. Guía completa con ejemplos prácticos y casos de uso.
+keywords: [self-consistency prompting, prompting, consistencia en ia, prompt engineering, técnicas de prompting, ia confiable, mejores prácticas ia]
 ---
 
 # 🔄 Self-Consistency Prompting

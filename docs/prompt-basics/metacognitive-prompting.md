@@ -2,7 +2,9 @@
 slug: metacognitive-prompting-guia-completa
 title: 🤔 Metacognitive Prompting - La guía definitiva para prompts reflexivos
 authors: [admin]
-tags: [prompting, ia, metacognición, tutoriales]
+tags: [prompting, ia, metacognición, tutoriales, metacognitive prompting, prompt engineering, inteligencia artificial]
+description: Aprende a utilizar el Metacognitive Prompting para mejorar tus interacciones con IAs. Descubre cómo obtener respuestas más precisas y entender el proceso de razonamiento de la IA.
+keywords: [metacognitive prompting, prompting, ia, metacognición, prompt engineering, inteligencia artificial, razonamiento ia, prompts reflexivos]
 ---
 
 # 🤔 Metacognitive Prompting

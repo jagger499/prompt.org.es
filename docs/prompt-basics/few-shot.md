@@ -2,7 +2,9 @@
 slug: few-shot-prompting-guia-completa
 title: 📚 Few-Shot Learning - La guía definitiva para aprender con ejemplos
 authors: [admin]
-tags: [prompting, ia, few-shot, tutoriales]
+tags: [prompting, ia, few-shot, tutoriales, machine learning, ejemplos, inteligencia artificial]
+description: Aprende a utilizar Few-Shot Learning para mejorar tus prompts de IA. Guía completa con ejemplos prácticos, casos de uso y mejores prácticas para 2024.
+keywords: [few-shot learning, prompting, ia, tutoriales, machine learning, ejemplos, inteligencia artificial, prompt engineering]
 ---
 
 # 📚 Few-Shot Learning - La guía definitiva para aprender con ejemplos

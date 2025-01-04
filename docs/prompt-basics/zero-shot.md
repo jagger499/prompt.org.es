@@ -2,7 +2,9 @@
 slug: zero-shot-prompting-guia-completa
 title: 🎯 Zero-Shot Prompting - La guía definitiva para prompts directos
 authors: [admin]
-tags: [prompting, ia, zero-shot, tutoriales]
+tags: [prompting, ia, zero-shot, tutoriales, llm, chatgpt, inteligencia artificial, prompt engineering]
+description: Domina el Zero-Shot Prompting con esta guía completa. Aprende a crear prompts efectivos sin ejemplos previos y optimiza tus interacciones con IAs en 2024.
+keywords: [zero shot prompting, prompt engineering, ia prompts, prompts sin ejemplos, prompting efectivo, chatgpt prompts, llm prompting]
 ---
 
 # 🎯 Zero-Shot Prompting
