@@ -1,11 +1,12 @@
 ---
 slug: role-prompting-guia-completa
-title: 🎭 Role Prompting - La guía definitiva para asignar roles a la IA
+title: 🎭 Role based prompting - La guía definitiva para asignar roles a la IA
 authors: [admin]
-tags: [prompting, ia, roles, tutoriales]
+tags: [prompting, ia, roles, tutoriales, expertos]
+description: Aprende a obtener respuestas expertas de la IA asignándole roles específicos. Guía completa con ejemplos prácticos y casos de uso.
 ---
 
-# 🎭 Role Prompting (Asignación de Roles)
+# 🎭 Role Based Prompting: Convierte tu IA en un Experto Especializado
 
 Cuando interactúas con una IA, ¿alguna vez has pensado en tratarla como si fuera un experto específico en lugar de una herramienta genérica? Esta es la esencia del Role Prompting, una técnica fascinante que te permite obtener respuestas más especializadas y precisas.
 
