@@ -12,6 +12,9 @@ imageHeight: 627
 ogImage: true
 twitterCard: summary_large_image
 linkedinBanner: true
+linkedinImage: img/social/ia-explicada-linkedin.png
+linkedinImageWidth: 1200
+linkedinImageHeight: 627
 ---
 
 # 🤖 ¿Qué es la IA? - Una perspectiva desde dentro
