@@ -90,7 +90,9 @@ const config: Config = {
       {name: 'twitter:image', content: 'https://www.prompt.org.es/img/social/default.png'},
       {name: 'twitter:title', content: 'Prompt.org.es - Ingeniería de Prompts'},
       {name: 'twitter:description', content: 'Aprende ingeniería de prompts con tutoriales prácticos y guías detalladas en español'},
-      {name: 'script', content: JSON.stringify(schema)}
+      {name: 'script', content: JSON.stringify(schema)},
+      {name: 'msapplication-TileColor', content: '#1a1a1a'},
+      {name: 'theme-color', content: '#1a1a1a'}
     ],
     navbar: {
       title: 'Prompt.org.es',
