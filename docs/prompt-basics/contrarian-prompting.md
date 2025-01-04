@@ -2,7 +2,9 @@
 slug: contrarian-prompting-guia-completa
 title: ⚖️ Contrarian Prompting - La guía definitiva para explorar perspectivas opuestas
 authors: [admin]
-tags: [prompting, ia, perspectivas, tutoriales]
+tags: [prompting, ia, perspectivas, tutoriales, contrarian prompting, toma de decisiones, análisis crítico]
+description: Aprende a utilizar el Contrarian Prompting para obtener perspectivas más equilibradas en la toma de decisiones con IA. Guía completa con ejemplos prácticos y técnicas avanzadas.
+keywords: [contrarian prompting, prompting, ia, toma de decisiones, análisis crítico, perspectivas opuestas, sesgo de confirmación, inteligencia artificial]
 ---
 
 # ⚖️ Contrarian Prompting

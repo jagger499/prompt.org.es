@@ -1,8 +1,10 @@
 ---
 slug: template-prompting-guia-completa
-title: 📋 Template Prompting - La guía definitiva para estructurar tus prompts
+title: 📋 Template Prompting - La Guía Definitiva para Estructurar tus Prompts
 authors: [admin]
-tags: [prompting, ia, plantillas, tutoriales]
+tags: [prompting, ia, plantillas, tutoriales, template prompting, prompt engineering, ingeniería de prompts, chatgpt]
+description: Aprende a dominar el Template Prompting para crear prompts efectivos y estructurados. Guía completa con ejemplos prácticos y plantillas para optimizar tus interacciones con IA en 2024.
+keywords: [template prompting, prompting, ingeniería de prompts, prompt engineering, plantillas ia, estructurar prompts, prompts efectivos, chatgpt prompts]
 ---
 
 # 📋 Template Prompting

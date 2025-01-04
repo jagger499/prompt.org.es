@@ -1,9 +1,10 @@
 ---
 slug: role-prompting-guia-completa
-title: 🎭 Role based prompting - La guía definitiva para asignar roles a la IA
+title: 🎭 Role Based Prompting - La Guía Definitiva para Asignar Roles a la IA
 authors: [admin]
-tags: [prompting, ia, roles, tutoriales, expertos]
-description: Aprende a obtener respuestas expertas de la IA asignándole roles específicos. Guía completa con ejemplos prácticos y casos de uso.
+tags: [prompting, ia, roles, tutoriales, expertos, role prompting, prompt engineering, chatgpt, llm, inteligencia artificial]
+description: Aprende a obtener respuestas expertas de la IA asignándole roles específicos. Guía completa con ejemplos prácticos y casos de uso para mejorar tus interacciones con ChatGPT y otros LLMs.
+keywords: [role prompting, prompt engineering, roles ia, prompts efectivos, chatgpt roles, llm prompting, asignar roles ia, prompting avanzado]
 ---
 
 # 🎭 Role Based Prompting: Convierte tu IA en un Experto Especializado

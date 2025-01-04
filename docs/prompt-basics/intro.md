@@ -1,5 +1,11 @@
 ---
 sidebar_position: 1
+slug: introduccion-prompts-ia
+title: 🎯 Introducción a los Prompts: Guía Completa 2024
+authors: [admin]
+tags: [prompts, prompt engineering, ia, inteligencia artificial, chatgpt, claude, llm]
+description: Aprende qué son los prompts y cómo escribirlos efectivamente. Guía completa con ejemplos prácticos para obtener mejores resultados de modelos de IA en 2024.
+keywords: [prompts, prompt engineering, ingeniería de prompts, ia, inteligencia artificial, chatgpt, claude, llm, instrucciones ia]
 ---
 
 # Introducción a los prompts

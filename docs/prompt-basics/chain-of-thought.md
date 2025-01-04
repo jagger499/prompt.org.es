@@ -2,7 +2,9 @@
 slug: chain-of-thought-prompting-guia-completa
 title: 🔗 Chain of Thought - La guía definitiva para el razonamiento paso a paso
 authors: [admin]
-tags: [prompting, ia, razonamiento, tutoriales]
+tags: [prompting, ia, razonamiento, tutoriales, chain of thought, prompt engineering, inteligencia artificial, chatgpt]
+description: Aprende a utilizar Chain of Thought Prompting para mejorar el razonamiento de la IA. Guía completa con ejemplos prácticos y técnicas paso a paso para 2024.
+keywords: [chain of thought prompting, prompting, razonamiento ia, prompt engineering, técnicas de prompting, ia paso a paso, pensamiento estructurado]
 ---
 
 # 🔗 Chain of Thought - La guía definitiva para el razonamiento paso a paso

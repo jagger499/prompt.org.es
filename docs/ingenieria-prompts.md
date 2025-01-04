@@ -3,9 +3,9 @@ sidebar_position: 2
 slug: que-es-la-ingenieria-de-prompts
 title: 🚀 ¿Qué es la Ingeniería de Prompts? La Guía Definitiva para Principiantes
 authors: [admin]
-tags: [prompting, ia, introducción, tutoriales, ingeniería de prompts]
-image: img/social/ingenieria-prompts-v2.png
+tags: [ingeniería de prompts, prompt engineering, IA, ChatGPT, LLM, inteligencia artificial, prompting]
 description: Descubre qué es la ingeniería de prompts y cómo puede ayudarte a obtener mejores resultados de la IA. Guía completa con ejemplos prácticos y técnicas probadas.
+keywords: [ingeniería de prompts, prompt engineering, IA, ChatGPT, prompting, LLM, ingeniería de instrucciones, optimización de prompts]
 ---
 
 # ¿Qué es la Ingeniería de Prompts?

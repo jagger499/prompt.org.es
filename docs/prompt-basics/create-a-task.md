@@ -1,5 +1,11 @@
 ---
 sidebar_position: 2
+slug: crear-tareas-ejecutables-ia
+title: 🎯 Crear Tareas Ejecutables para IA - Guía Completa 2024
+authors: [admin]
+tags: [prompting, ia, tareas ejecutables, prompt engineering, chatgpt, llm, inteligencia artificial, instrucciones ia]
+description: Aprende a crear tareas ejecutables efectivas para IAs. Guía paso a paso con ejemplos prácticos para obtener mejores resultados de ChatGPT y otros LLMs en 2024.
+keywords: [tareas ejecutables, prompt engineering, ia, chatgpt, instrucciones ia, prompts efectivos, llm, inteligencia artificial]
 ---
 
 # Crear tareas ejecutables

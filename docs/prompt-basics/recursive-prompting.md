@@ -2,7 +2,9 @@
 slug: recursive-prompting-guia-completa
 title: 📝 Recursive Prompting - La guía definitiva para dividir problemas complejos
 authors: [admin]
-tags: [prompting, ia, recursividad, tutoriales]
+tags: [prompting, ia, recursividad, tutoriales, recursive prompting, prompt engineering, inteligencia artificial]
+description: Aprende a utilizar el Recursive Prompting para resolver problemas complejos de manera eficiente. Guía completa con ejemplos prácticos y mejores prácticas para 2024.
+keywords: [recursive prompting, prompting, ia, recursividad, prompt engineering, inteligencia artificial, problemas complejos, técnicas de prompting]
 ---
 
 # 📝 Recursive Prompting: Dividiendo problemas complejos
