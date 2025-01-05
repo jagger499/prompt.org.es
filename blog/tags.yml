@@ -1,19 +1,114 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+liderazgo:
+  label: Liderazgo
+  permalink: /tags/liderazgo
+  description: Artículos sobre liderazgo y gestión de equipos
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+desarrollo-de-software:
+  label: Desarrollo de Software
+  permalink: /tags/desarrollo-de-software
+  description: Artículos sobre desarrollo y programación
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+equipos:
+  label: Equipos
+  permalink: /tags/equipos
+  description: Artículos sobre trabajo en equipo
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+confianza:
+  label: Confianza
+  permalink: /tags/confianza
+  description: Artículos sobre confianza en entornos profesionales
+
+gestion-de-equipos:
+  label: Gestión de Equipos
+  permalink: /tags/gestion-de-equipos
+  description: Artículos sobre gestión y liderazgo de equipos
+
+micromanagement:
+  label: Micromanagement
+  permalink: /tags/micromanagement
+  description: Artículos sobre microgestión y sus efectos
+
+cultura-organizacional:
+  label: Cultura Organizacional
+  permalink: /tags/cultura-organizacional
+  description: Artículos sobre cultura empresarial y organizacional
+
+prompting:
+  label: Prompting
+  permalink: /tags/prompting
+  description: Artículos sobre técnicas de prompting e IA
+
+ia:
+  label: IA
+  permalink: /tags/ia
+  description: Artículos sobre Inteligencia Artificial
+
+machine-learning:
+  label: Machine Learning
+  permalink: /tags/machine-learning
+  description: Artículos sobre aprendizaje automático
+
+deep-learning:
+  label: Deep Learning
+  permalink: /tags/deep-learning
+  description: Artículos sobre redes neuronales profundas
+
+artificial-intelligence:
+  label: Artificial Intelligence
+  permalink: /tags/artificial-intelligence
+  description: Articles about AI and its applications
+
+neural-networks:
+  label: Neural Networks
+  permalink: /tags/neural-networks
+  description: Artículos sobre redes neuronales
+
+chatgpt:
+  label: ChatGPT
+  permalink: /tags/chatgpt
+  description: Artículos sobre ChatGPT y su uso
+
+llm:
+  label: LLM
+  permalink: /tags/llm
+  description: Artículos sobre Modelos de Lenguaje Grande
+
+inteligencia-artificial:
+  label: Inteligencia Artificial
+  permalink: /tags/inteligencia-artificial
+  description: Artículos sobre IA y sus aplicaciones
+
+prompt-engineering:
+  label: Prompt Engineering
+  permalink: /tags/prompt-engineering
+  description: Artículos sobre ingeniería de prompts
+
+roles:
+  label: Roles
+  permalink: /tags/roles
+  description: Artículos sobre roles en IA y equipos
+
+tutoriales:
+  label: Tutoriales
+  permalink: /tags/tutoriales
+  description: Guías y tutoriales prácticos
+
+expertos:
+  label: Expertos
+  permalink: /tags/expertos
+  description: Artículos de y sobre expertos en el campo
+
+recursividad:
+  label: Recursividad
+  permalink: /tags/recursividad
+  description: Artículos sobre técnicas recursivas
+
+validacion:
+  label: Validación
+  permalink: /tags/validacion
+  description: Artículos sobre validación y verificación
+
+consistencia:
+  label: Consistencia
+  permalink: /tags/consistencia
+  description: Artículos sobre consistencia en IA

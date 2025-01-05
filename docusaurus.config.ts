@@ -57,6 +57,9 @@ const config: Config = {
           blogTitle: 'Blog de Ingeniería de Prompts',
           blogDescription: 'Tutoriales, guías y recursos sobre ingeniería de prompts, IA y procesamiento de lenguaje natural',
           postsPerPage: 10,
+          blogListComponent: '@theme/BlogListPage',
+          blogPostComponent: '@theme/BlogPostPage',
+          blogSidebarCount: 0,
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -117,6 +120,11 @@ const config: Config = {
           label: 'GitHub',
           position: 'right',
         },
+        {
+          to: '/blog',
+          label: 'Blog',
+          position: 'left'
+        }
       ],
     },
     footer: {
