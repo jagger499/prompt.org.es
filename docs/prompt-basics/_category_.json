@@ -1,6 +1,7 @@
 {
-  "label": "Prompt Basics",
-  "position": 2,
+  "label": "Prompt Engineering - Básico",
+  "position": 3,
+  "className": "category-separator",
   "link": {
     "type": "generated-index",
     "description": "5 minutos para entender los conceptos básicos de los prompts."

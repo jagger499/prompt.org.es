@@ -1,0 +1,9 @@
+{
+  "label": "🔍 Análisis de Código",
+  "position": 4,
+  "className": "category-separator",
+  "link": {
+    "type": "generated-index",
+    "description": "Aprende a usar prompts para mejorar la programación con IA."
+  }
+}

@@ -38,3 +38,16 @@
 .footer {
   background-color: #111111;
 }
+
+.separator {
+  border-top: 2px solid var(--ifm-color-primary);
+  padding-top: 1rem;
+  margin-top: 1rem;
+}
+
+.category-separator {
+  position: relative;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}

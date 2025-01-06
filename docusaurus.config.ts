@@ -141,6 +141,10 @@ const config: Config = {
               label: 'Prompt Basics',
               to: '/docs/prompt-basics/intro',
             },
+            {
+              label: 'Prompt Aplicado a la Programación',
+              to: '/docs/prompt-aplicados/intro',
+            },
           ],
         },
         {
