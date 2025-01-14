@@ -9,7 +9,7 @@ keywords: [índice de deuda técnica, TDI, calidad de código, métricas de soft
 
 # 📊 Entendiendo el Índice de Deuda Técnica (TDI)
 
-Imagina que estás administrando tus finanzas personales. Tienes una tarjeta de crédito, y cada mes miras el porcentaje de tu deuda en relación con tu límite de crédito para saber si estás en una situación saludable o si necesitas tomar medidas. El Índice de Deuda Técnica (TDI) funciona de manera similar para tu código: te ayuda a entender qué tan "endeudado" está tu proyecto en términos de calidad y mantenibilidad.
+Imagina que estás administrando tus finanzas personales. Tienes una tarjeta de crédito, y cada mes miras el porcentaje de tu deuda en relación con tu límite de crédito para saber si estás en una situación saludable o si necesitas tomar medidas. El Índice de Deuda Técnica (TDI, por sus siglas en inglés Technical Debt Index) funciona de manera similar para tu código: te ayuda a entender qué tan "endeudado" está tu proyecto en términos de calidad y mantenibilidad.
 
 ## ¿Qué es exactamente el TDI?
 
