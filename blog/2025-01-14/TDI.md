@@ -15,13 +15,52 @@ Imagina que estás administrando tus finanzas personales. Tienes una tarjeta de 
 
 El TDI es como un termómetro que mide la "fiebre" de tu código. Es un número que va de 0% a 100%, donde un valor más bajo indica un código más saludable. Por ejemplo, si tu proyecto tiene un TDI del 15%, está en buena forma, pero si alcanza el 45%, es momento de preocuparse y tomar acciones.
 
-## ¿Cómo se calcula?
+Esta métrica actúa como un sistema de alerta temprana, permitiéndote identificar cuándo tu base de código comienza a deteriorarse antes de que los problemas se vuelvan críticos. Al igual que un médico monitorea los signos vitales de un paciente, el TDI te ayuda a mantener un ojo constante en la salud de tu proyecto.
 
-La fórmula básica es bastante directa:
+Algunos factores que influyen en el TDI incluyen:
 
-TDI = (Costo de Remediar Deuda Técnica / Costo Total del Proyecto) × 100
+- Complejidad ciclomática del código
+- Duplicación de código
+- Cobertura de pruebas
+- Violaciones de estándares de codificación
+- Deuda técnica deliberada vs accidental
+- Antigüedad del código legacy
 
-Por ejemplo, si tienes un proyecto que costó $100,000 en desarrollo, y los expertos estiman que necesitarías $20,000 para corregir todos los problemas técnicos acumulados, tu TDI sería del 20%.
+Por ejemplo, un proyecto puede tener un TDI bajo del 12% gracias a:
+- Revisiones de código regulares
+- Refactorización proactiva
+- Pruebas automatizadas extensivas
+- Documentación actualizada
+- Estándares de código consistentes
+
+Mientras que un TDI alto del 60% podría indicar:
+- Código duplicado extensivo
+- Falta de pruebas unitarias
+- Violaciones de principios SOLID
+- Dependencias obsoletas
+- Documentación desactualizada
+
+El TDI te permite tomar decisiones informadas sobre cuándo y dónde invertir recursos en mejoras técnicas, ayudándote a mantener un equilibrio saludable entre el desarrollo de nuevas características y el mantenimiento del código existente.
+
+## Proceso de Estimación de Deuda Técnica en Historias de Usuario
+
+Para mantener un control efectivo del TDI durante el desarrollo, es importante establecer un proceso claro de estimación. Este proceso se divide en dos pasos principales:
+
+### 1. Durante la Planificación
+Para cada Historia de Usuario (HU), el equipo necesita realizar dos estimaciones clave:
+- **Esfuerzo base para desarrollo (EB)**: El tiempo necesario para implementar la funcionalidad principal
+- **Esfuerzo para gestión de deuda técnica (EDT)**: El tiempo adicional requerido para mantener la calidad del código
+
+### 2. Cálculo del TDI
+Con estas estimaciones, podemos calcular el TDI específico para cada Historia de Usuario:
+- **Fórmula**: TDI_HU = (EDT / (EB + EDT)) × 100
+
+Por ejemplo, si tenemos:
+- Esfuerzo base = 8 puntos de historia
+- Esfuerzo deuda técnica = 2 puntos de historia
+- TDI_HU = (2 / (8 + 2)) × 100 = 20%
+
+Este resultado nos indica que el 20% del esfuerzo total se dedicará a gestionar la deuda técnica.
 
 ### Rangos aceptados
 
@@ -32,38 +71,22 @@ Según un estudio realizado por SonarSource en 2023, estos son los rangos genera
 - 31-50%: Requiere atención urgente
 - >50%: Situación crítica
 
-# 🧹 Operation Clean Slate: El Caso Netflix
 
-## 📊 El Problema
 
-En 2023, Netflix se enfrentó a una crisis significativa cuando su Índice de Deuda Técnica (TDI) alcanzó un alarmante 40%. Esta situación provocó graves consecuencias operativas: los tiempos de resolución de incidentes aumentaron en un 65%, la velocidad de desarrollo se vio severamente afectada y la estabilidad general de la plataforma quedó comprometida.
+## 🧹 El Caso Netflix
 
-## 💡 La Solución
+En 2023, Netflix enfrentó una crisis con un TDI del 40%, lo que afectó severamente sus operaciones. Para solucionarlo, implementaron "Operation Clean Slate", una iniciativa que involucró a 800 ingenieros y estableció días quincenales dedicados a la limpieza de código.
 
-Para abordar esta crisis, Netflix lanzó una iniciativa ambiciosa llamada "Operation Clean Slate". El programa involucró a más de 800 ingenieros y estableció días quincenales dedicados exclusivamente a la limpieza de código, durante los cuales se prohibió el desarrollo de nuevas funcionalidades para mantener el enfoque en la mejora de la calidad.
+El proyecto se desarrolló en tres fases:
+1. **Identificación** (2 meses): Análisis automatizado que reveló 15,000 problemas técnicos
+2. **Implementación** (3 meses): Priorización y resolución de problemas mediante pair programming
+3. **Prevención** (1 mes): Implementación de gates de calidad y monitoreo continuo
 
-## 📅 Fases de Implementación
-
-La operación se desarrolló en tres fases estratégicas:
-
-### 1️⃣ Fase de Identificación (2 meses)
-Durante los primeros dos meses, el equipo realizó un análisis automatizado exhaustivo que reveló más de 15,000 problemas técnicos. El enfoque principal se centró en identificar cuestiones críticas de rendimiento y seguridad.
-
-### 2️⃣ Fase de Implementación (3 meses)
-En la segunda fase, que duró tres meses, los equipos priorizaron los problemas según su impacto y complejidad. Se implementó un sistema de programación en parejas y se establecieron sesiones de revisión de código en tiempo real para asegurar la calidad de las soluciones.
-
-### 3️⃣ Fase de Prevención (1 mes)
-La fase final se centró en la prevención, implementando gates de calidad en el pipeline de CI/CD, un dashboard de TDI en tiempo real y un sistema de gamificación entre equipos para mantener el compromiso con la calidad del código.
-
-## 📈 Resultados Impactantes
-
-Después de seis meses, los resultados fueron notables:
-
-El TDI se redujo drásticamente del 40% al 15%, mientras que el tiempo de resolución de incidentes disminuyó en un 45%. La velocidad de desarrollo experimentó un incremento del 30%, la rotación del personal se redujo en un 25%, y el tiempo de onboarding mejoró en un 40%.
-
-### 💰 Impacto Financiero
-
-El éxito de la iniciativa no solo se reflejó en métricas técnicas; Netflix proyecta un ahorro de más de $50 millones en los próximos dos años como resultado directo de estas mejoras.
+Los resultados después de 6 meses fueron significativos:
+- Reducción del TDI del 40% al 15%
+- Disminución del 45% en tiempo de resolución de incidentes
+- Mejora del 30% en velocidad de desarrollo
+- Ahorro proyectado de $50M en dos años
 
 ## Referencias
 
@@ -74,4 +97,7 @@ El éxito de la iniciativa no solo se reflejó en métricas técnicas; Netflix p
 3. Martin, Robert C. (2008). "Clean Code: A Handbook of Agile Software Craftsmanship".
 
 4. IEEE Software. (2023). "Technical Debt: From Metaphor to Theory and Practice". IEEE Software Journal, 40(2), 8-17.
+
+
+
 
