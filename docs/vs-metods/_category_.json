@@ -1,0 +1,9 @@
+{
+  "label": "🥊 Prompting VS - Comparativas y Enfrentamientos",
+  "position": 4,
+  "className": "category-separator",
+  "link": {
+    "type": "generated-index",
+    "description": "Analiza y compara diferentes técnicas de prompting para determinar cuál es más efectiva en cada escenario."
+  }
+}

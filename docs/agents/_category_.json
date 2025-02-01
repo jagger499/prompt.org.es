@@ -1,0 +1,9 @@
+{
+  "label": "🤖 Agentes y Automatización con IA",
+  "position": 4,
+  "className": "category-separator",
+  "link": {
+    "type": "generated-index",
+    "description": "Aprende a crear y utilizar agentes de IA para automatizar tareas y mejorar tu productividad."
+  }
+}
