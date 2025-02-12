@@ -1,0 +1,9 @@
+{
+  "label": "🤝 Prompting Ally - Técnicas de Colaboración con IA",
+  "position": 5,
+  "className": "category-separator",
+  "link": {
+    "type": "generated-index",
+    "description": "Explora técnicas de prompting diseñadas para establecer una colaboración efectiva con sistemas de IA."
+  }
+}
