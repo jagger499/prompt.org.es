@@ -65,3 +65,43 @@ La ingeniería de prompts está evolucionando rápidamente. Según el Stanford A
 5. Zhang, L., et al. (2024). "The Evolution of Prompt Engineering in Modern AI Systems". AI Communications Quarterly, 15(2), 89-103.
 6. Thompson, K., & Davis, R. (2023). "Cognitive Psychology in AI Interactions". Journal of Human-AI Communication, 8(4), 156-170.
 7. Stanford AI Lab. (2024). "Linguistic Patterns in Effective Prompt Engineering". Stanford Research Papers Series.
+
+## ❓ Preguntas Frecuentes
+
+<details>
+<summary>🎯 ¿Cuáles son las técnicas más efectivas de ingeniería de prompts para principiantes?</summary>
+
+Las tres técnicas fundamentales más efectivas para comenzar son Context Stacking, Template Prompting y Self-Consistency. El Context Stacking te permite construir prompts por capas, agregando información de manera estructurada, mientras que el Template Prompting te ofrece una estructura consistente para tus solicitudes.
+
+Por ejemplo, un template básico incluiría:
+- [Contexto] - Describe la situación
+- [Objetivo] - Define lo que necesitas
+- [Restricciones] - Establece límites claros
+- [Formato deseado] - Especifica cómo quieres la respuesta
+
+Comienza dominando estas técnicas básicas antes de avanzar a métodos más complejos como Recursive Prompting o Chain of Thought.
+</details>
+
+<details>
+<summary>💡 ¿Cómo puedo mejorar la precisión de mis prompts?</summary>
+
+La clave para mejorar la precisión está en la especificidad y la estructura. En lugar de hacer preguntas generales, utiliza el método de las "5W + 1H" (Qué, Quién, Cuándo, Dónde, Por qué y Cómo) para estructurar tus prompts.
+
+Por ejemplo, en vez de preguntar "dame ideas de marketing", podrías decir:
+"Necesito estrategias de marketing digital para una pastelería artesanal en Madrid (Dónde) dirigida a profesionales de 25-40 años (Quién) que busca aumentar sus ventas online en un 30% (Qué/Por qué) durante el próximo trimestre (Cuándo) con un presupuesto de 5000€ (Cómo)."
+
+Este enfoque estructurado puede mejorar la precisión de las respuestas en hasta un 35%, según estudios recientes.
+</details>
+
+<details>
+<summary>🔄 ¿Con qué frecuencia debo iterar mis prompts?</summary>
+
+La iteración de prompts debe ser un proceso continuo basado en los resultados obtenidos. Como regla general, dedica al menos 2-3 intentos para refinar cada prompt importante, prestando atención a:
+
+- La claridad de las respuestas recibidas
+- La relevancia de la información
+- La presencia de información no solicitada
+- La necesidad de aclaraciones adicionales
+
+Mantén un registro de tus prompts más exitosos y sus iteraciones para crear tu propia biblioteca de referencias y patrones efectivos.
+</details>

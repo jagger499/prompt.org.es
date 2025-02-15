@@ -34,3 +34,42 @@ La ingeniería de prompts se ha convertido en una habilidad fundamental en la er
 5. **Resolución de problemas**: De manera más efectiva y creativa
 
 Esta disciplina está en constante evolución, adaptándose a los nuevos avances en modelos de lenguaje y descubriendo nuevas técnicas para mejorar la comunicación humano-IA.
+
+## ❓ Preguntas Frecuentes
+
+<details>
+<summary>🤔 ¿Qué diferencia hay entre usar plantillas y escribir prompts desde cero?</summary>
+
+El uso de plantillas (Template Prompting) proporciona una estructura consistente y probada, mientras que escribir desde cero ofrece más flexibilidad pero requiere más experiencia. Las plantillas son como recetas que te aseguran un resultado consistente, mientras que escribir desde cero es como cocinar por intuición.
+
+Por ejemplo, una plantilla básica podría ser:
+[Contexto] - Describe la situación
+[Objetivo] - Define lo que necesitas
+[Restricciones] - Establece límites claros
+[Formato deseado] - Especifica cómo quieres la respuesta
+
+Esta estructura te ayuda a mantener la consistencia mientras desarrollas tus habilidades de prompting.
+</details>
+
+<details>
+<summary>💡 ¿Cómo puedo saber si mis prompts están mejorando con el tiempo?</summary>
+
+Puedes evaluar la mejora de tus prompts mediante tres indicadores clave:
+1. Precisión: ¿Las respuestas son más relevantes y específicas?
+2. Eficiencia: ¿Necesitas menos iteraciones para obtener el resultado deseado?
+3. Consistencia: ¿Obtienes resultados similares al usar el mismo prompt múltiples veces?
+
+Mantén un registro de tus prompts más exitosos y analiza qué elementos los hacen efectivos. Esto te ayudará a identificar patrones y mejorar tu técnica con el tiempo.
+</details>
+
+<details>
+<summary>🔄 ¿Qué técnica de prompting debo usar primero como principiante?</summary>
+
+Como principiante, te recomendamos comenzar con Context Stacking, que consiste en construir tus prompts por capas de información. Esta técnica es intuitiva y te ayuda a desarrollar buenos hábitos de estructuración desde el inicio.
+
+Por ejemplo, en lugar de preguntar "dame ideas de negocio", podrías construir por capas:
+1. Contexto base: "Busco ideas de negocio para el mercado latinoamericano"
+2. Especificaciones: "Con enfoque en sostenibilidad ambiental"
+3. Restricciones: "Presupuesto inicial de $10,000"
+4. Formato: "Necesito 5 ideas con análisis de viabilidad"
+</details>
