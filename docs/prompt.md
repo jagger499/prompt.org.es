@@ -46,3 +46,41 @@ Las restricciones: Establece límites claros, como la longitud deseada, el forma
 1. OpenAI. (2023). "The Impact of Prompt Engineering on AI Response Quality". OpenAI Research Blog.
 2. Stanford University. (2024). "AI Index Report 2024". Stanford HAI.
 3. Johnson, M., & Smith, P. (2023). "Effective Communication Patterns in AI Interactions". Journal of Artificial Intelligence Research, 65, 112-145.
+
+## ❓ Preguntas Frecuentes
+
+<details>
+<summary>🎯 ¿Qué tan específico debo ser al proporcionar contexto en mis prompts?</summary>
+
+El nivel de especificidad depende del resultado que busques obtener. Como regla general, deberías incluir:
+- El propósito o objetivo final
+- Cualquier restricción relevante (presupuesto, tiempo, recursos)
+- El formato deseado para la respuesta
+- El nivel de tecnicismo requerido
+
+Por ejemplo, en lugar de "dame ideas para mejorar mi negocio", podrías decir: "Necesito 3 estrategias para aumentar las ventas online de mi pastelería artesanal en Madrid, considerando un presupuesto mensual de 500€ y enfocándome en clientes millennials".
+</details>
+
+<details>
+<summary>💡 ¿Cómo puedo asegurarme de que el contexto que proporciono sea relevante?</summary>
+
+Para garantizar la relevancia del contexto, enfócate en los elementos que impactarán directamente el resultado deseado:
+
+1. Información esencial: Incluye solo datos que afecten la respuesta
+2. Jerarquía: Presenta primero la información más importante
+3. Actualidad: Asegúrate de que el contexto esté actualizado y sea aplicable
+
+Evita incluir información tangencial que pueda distraer o confundir al modelo de IA.
+</details>
+
+<details>
+<summary>🔄 ¿Con qué frecuencia debo actualizar el contexto en mis prompts?</summary>
+
+El contexto debe actualizarse cuando:
+- Cambien las circunstancias relevantes del proyecto
+- Obtengas nueva información significativa
+- Los resultados no sean tan precisos como antes
+- Las restricciones o requisitos se modifiquen
+
+Mantén un registro de qué elementos del contexto generan mejores resultados y ajusta según sea necesario. La clave es mantener un equilibrio entre consistencia y actualización.
+</details>

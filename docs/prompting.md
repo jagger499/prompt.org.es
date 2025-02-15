@@ -37,3 +37,33 @@ El prompting efectivo también implica entender que puedes iterar y refinar tus 
 2. Smith, J., & Johnson, M. (2025). "Effective Communication Patterns in AI Interactions". Journal of Artificial Intelligence Research, 65, 112-145.
 3. Stanford University. (2025). "AI Index Report 2025". Stanford HAI.
 4. Thompson, K., & Lee, S. (2025). "User Success Rates in AI Interactions". AI Communications Journal, 15(4), 78-95.
+
+## ❓ Preguntas Frecuentes
+
+<details>
+<summary>🤔 ¿Cómo puedo saber si estoy proporcionando suficiente contexto en mis prompts?</summary>
+
+Un buen prompt debe incluir al menos tres elementos clave: el objetivo específico, el contexto relevante y las restricciones o limitaciones. Para evaluar si tu contexto es suficiente, pregúntate si una persona sin conocimiento previo del tema podría entender exactamente lo que necesitas.
+
+Por ejemplo, en lugar de "dame ideas para mejorar mi negocio", un prompt con contexto adecuado sería: "Necesito ideas para mejorar mi pastelería artesanal en Madrid que tiene 2 años de operación, 5 empleados y se especializa en postres veganos. El presupuesto disponible es de 10.000€ y busco soluciones implementables en 3 meses."
+</details>
+
+<details>
+<summary>💡 ¿Qué tan específico debo ser con el formato de respuesta deseado?</summary>
+
+La especificidad en el formato es crucial para obtener respuestas útiles y accionables. Cuanto más claro seas sobre cómo quieres recibir la información, más fácil será utilizar la respuesta sin necesidad de reformateo o clarificaciones adicionales.
+
+Por ejemplo, si necesitas un plan de acción, podrías especificar:
+- Formato de lista numerada
+- Máximo 5 puntos principales
+- Cada punto con un subtítulo y descripción breve
+- Incluir tiempo estimado de implementación por punto
+</details>
+
+<details>
+<summary>🔄 ¿Con qué frecuencia debo iterar o refinar mis prompts?</summary>
+
+La iteración es una parte fundamental del prompting efectivo. Como regla general, deberías estar dispuesto a refinar tu prompt al menos 2-3 veces hasta obtener el resultado deseado. Cada iteración debe basarse en analizar qué falta en la respuesta anterior o qué podría mejorarse.
+
+Mantén un registro de tus prompts más exitosos y sus iteraciones. Esto te ayudará a identificar patrones sobre qué funciona mejor para diferentes tipos de solicitudes y te permitirá crear una biblioteca personal de prompts efectivos.
+</details>
