@@ -129,3 +129,48 @@ Los ejemplos demuestran el tono profesional y empático deseado, así como la es
 - Wei, J., et al. (2023). "Prompt Engineering for Large Language Models". AI Research Quarterly.
 - OpenAI. (2024). "Few-Shot Learning Best Practices". OpenAI Documentation.
 - Google Research. (2023). "Improving Few-Shot Performance in Language Models". Google AI Blog.
+
+## ❓ Preguntas Frecuentes
+
+<details>
+<summary>🎯 ¿Cuántos ejemplos son necesarios para que el Few-Shot Learning sea efectivo?</summary>
+
+La cantidad óptima de ejemplos depende de la complejidad de la tarea, pero generalmente 3-5 ejemplos bien seleccionados son suficientes para obtener buenos resultados. Lo más importante es que los ejemplos sean diversos y representativos del tipo de resultados que deseas obtener.
+
+Por ejemplo, si estás enseñando a la IA a clasificar correos electrónicos por prioridad, podrías usar:
+- 1 ejemplo de prioridad alta (urgencia inmediata)
+- 1 ejemplo de prioridad media (acción requerida pero no urgente)
+- 1 ejemplo de prioridad baja (informativo)
+
+La clave está en la calidad y relevancia de los ejemplos, no en la cantidad.
+</details>
+
+<details>
+<summary>🔄 ¿Cómo puedo mejorar mis ejemplos para Few-Shot Learning?</summary>
+
+Para mejorar tus ejemplos, enfócate en tres aspectos clave:
+
+1. Representatividad: Asegúrate de que tus ejemplos cubran los casos más comunes que encontrarás en la práctica real.
+2. Diversidad: Incluye variaciones sutiles que ayuden al modelo a entender los matices de la tarea.
+3. Claridad: Usa ejemplos inequívocos que demuestren claramente el patrón que deseas que el modelo aprenda.
+
+Por ejemplo, si estás enseñando análisis de sentimiento, incluye casos que varíen en intensidad y contexto, no solo ejemplos extremadamente positivos o negativos.
+</details>
+
+<details>
+<summary>💡 ¿Cuándo debo usar Few-Shot vs Zero-Shot Learning?</summary>
+
+La elección entre Few-Shot y Zero-Shot depende principalmente de la complejidad y especificidad de tu tarea:
+
+Usa Few-Shot cuando:
+- Necesites que la IA replique un estilo o formato muy específico
+- La tarea requiera entender matices o patrones únicos
+- Quieras asegurar consistencia en las respuestas
+
+Usa Zero-Shot cuando:
+- La tarea sea relativamente directa y bien definida
+- Tengas restricciones de tokens o tiempo
+- Puedas proporcionar instrucciones claras sin necesidad de ejemplos
+
+La clave está en evaluar si los ejemplos agregan valor real a la comprensión de la tarea por parte de la IA.
+</details>
