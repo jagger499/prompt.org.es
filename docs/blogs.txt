@@ -1,0 +1,80 @@
+Indice del Sitemap de Prompt.org.es
+
+1. Blog
+   - https://www.prompt.org.es/blog
+   - https://www.prompt.org.es/blog/archive
+   - https://www.prompt.org.es/blog/authors
+   - https://www.prompt.org.es/blog/authors/jagger
+   - https://www.prompt.org.es/blog/bienvenidos-prompt-org-es
+   - https://www.prompt.org.es/blog/codigo-limpio-guia-2024
+   - https://www.prompt.org.es/blog/confianza-equipos-desarrollo-software
+   - https://www.prompt.org.es/blog/deuda-tecnica-guia-2024
+   - https://www.prompt.org.es/blog/indice-deuda-tecnica-guia
+   - https://www.prompt.org.es/blog/reflexiones-lider-tecnico-2024
+   - https://www.prompt.org.es/blog/vision-balance-vida-trabajo-latinoamerica
+   - https://www.prompt.org.es/blog/tags
+   - Tags relevantes:
+     - https://www.prompt.org.es/blog/tags/calidad-codigo
+     - https://www.prompt.org.es/blog/tags/cultura-organizacional
+     - https://www.prompt.org.es/blog/tags/desarrollo-de-software
+     - https://www.prompt.org.es/blog/tags/gestion-de-equipos
+     - https://www.prompt.org.es/blog/tags/ingenieria-de-prompts
+     - https://www.prompt.org.es/blog/tags/metricas
+     - https://www.prompt.org.es/blog/tags/chatgpt
+     - https://www.prompt.org.es/blog/tags/confianza
+     - https://www.prompt.org.es/blog/tags/consistencia
+     - https://www.prompt.org.es/blog/tags/micromanagement
+     - https://www.prompt.org.es/blog/tags/tutoriales
+     - https://www.prompt.org.es/blog/tags/validacion
+
+2. Métodos de Prompting
+   - https://www.prompt.org.es/docs/prompt-basics/adversarial-prompting-guia-completa
+   - https://www.prompt.org.es/docs/prompt-basics/chain-of-code-guia-completa
+   - https://www.prompt.org.es/docs/prompt-basics/chain-of-knowledge-guia-completa
+   - https://www.prompt.org.es/docs/prompt-basics/chain-of-table-guia-completa
+   - https://www.prompt.org.es/docs/prompt-basics/chain-of-thought-prompting-guia-completa
+   - https://www.prompt.org.es/docs/prompt-basics/context-stacking-prompting-guia-completa
+   - https://www.prompt.org.es/docs/prompt-basics/contrarian-prompting-guia-completa
+   - https://www.prompt.org.es/docs/prompt-basics/few-shot-prompting-guia-completa
+   - https://www.prompt.org.es/docs/prompt-basics/metacognitive-prompting-guia-completa
+   - https://www.prompt.org.es/docs/prompt-basics/recursive-prompting-guia-completa
+   - https://www.prompt.org.es/docs/prompt-basics/reflexive-prompting-guia-completa
+   - https://www.prompt.org.es/docs/prompt-basics/role-prompting-guia-completa
+   - https://www.prompt.org.es/docs/prompt-basics/self-consistency-prompting-guia-completa
+   - https://www.prompt.org.es/docs/prompt-basics/socratic-prompting-guia-completa
+   - https://www.prompt.org.es/docs/prompt-basics/step-back-prompting-guia-completa
+   - https://www.prompt.org.es/docs/prompt-basics/template-prompting-guia-completa
+   - https://www.prompt.org.es/docs/prompt-basics/thread-of-thought-prompting-guia-completa
+   - https://www.prompt.org.es/docs/prompt-basics/tree-of-thoughts-guia-completa
+   - https://www.prompt.org.es/docs/prompt-basics/validation-prompting-guia-completa
+   - https://www.prompt.org.es/docs/prompt-basics/zero-shot-prompting-guia-completa
+
+3. Métodos y Comparaciones
+   - https://www.prompt.org.es/docs/vs-metods/adversarial-vs-template-prompting
+   - https://www.prompt.org.es/docs/vs-metods/few-shot-vs-zero-shot-prompting-comparativa
+   - https://www.prompt.org.es/docs/vs-metods/recursive-vs-chain-of-thought-prompting
+   - https://www.prompt.org.es/docs/vs-metods/role-vs-contrarian-prompting
+   - https://www.prompt.org.es/docs/vs-metods/self-vs-validation-prompting
+   - https://www.prompt.org.es/docs/vs-metods/template-vs-metacognitive-prompting
+
+4. Categorías de Documentación
+   - https://www.prompt.org.es/docs/category/-agentes-y-automatizacion-con-ia
+   - https://www.prompt.org.es/docs/category/-analisis-de-codigo
+   - https://www.prompt.org.es/docs/category/-prompt-engineering---aplicado-a-la-programacion
+   - https://www.prompt.org.es/docs/category/-prompt-engineering---fundamentos
+   - https://www.prompt.org.es/docs/category/-prompting-ally---tecnicas-de-colaboracion-con-ia
+   - https://www.prompt.org.es/docs/category/-prompting-vs---comparativas-y-enfrentamientos
+
+5. Guías y Preguntas Frecuentes
+   - https://www.prompt.org.es/docs/ingeniero-prompt-guia-completa
+   - https://www.prompt.org.es/docs/inteligencia-artificial-explicada-por-ia
+   - https://www.prompt.org.es/docs/que-es-la-ingenieria-de-prompt
+   - https://www.prompt.org.es/docs/que-es-la-ingenieria-de-prompts
+   - https://www.prompt.org.es/docs/que-es-prompting-guia-completa
+   - https://www.prompt.org.es/docs/que-es-un-prompt-guia-completa
+   - https://www.prompt.org.es/docs/preguntas-frecuentes-ingenieria-prompts
+
+6. Página Principal
+   - https://www.prompt.org.es/
+   - https://www.prompt.org.es/markdown-page
+
