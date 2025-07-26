@@ -76,7 +76,7 @@ const config: Config = {
 
   themeConfig: {
     metadata: [
-      {name: 'keywords', content: 'prompting, ingeniería de prompts, ia, inteligencia artificial, tutoriales, gpt, machine learning, nlp, procesamiento lenguaje natural, prompt engineering, chatgpt, openai'},
+      {name: 'keywords', content: 'prompting, ingeniería de prompts, ia, inteligencia artificial, tutoriales, gpt, machine learning, nlp, procesamiento lenguaje natural, prompt engineering, chatgpt, openai, servicios empresariales, consultoría ia, formación prompts, optimización prompts'},
       {name: 'description', content: 'Aprende ingeniería de prompts con tutoriales prácticos y guías detalladas. Recursos en español sobre IA, procesamiento de lenguaje natural y prompt engineering.'},
       {name: 'google-site-verification', content: 'wIJCtyoka3eS6grq65oWfQPomVw1iPINcjvaYwdVIKs'},
       {name: 'og:title', content: 'Prompt.org.es - Aprende Ingeniería de Prompts en Español'},
@@ -146,6 +146,27 @@ const config: Config = {
               label: 'Prompt Basics',
               to: '/docs/prompt-basics/intro',
             },
+            {
+              label: 'Blog',
+              to: '/blog',
+            },
+          ],
+        },
+        {
+          title: 'Servicios',
+          items: [
+            {
+              label: 'Servicios Empresariales',
+              to: '/business',
+            },
+            {
+              label: 'Consultoría en Prompts',
+              to: '/business#nosotros',
+            },
+            {
+              label: 'Prompt Engineering Sprint',
+              to: '/business#sprint',
+            },
           ],
         },
         {
@@ -154,6 +175,10 @@ const config: Config = {
             {
               label: 'GitHub',
               href: 'https://github.com/jagger499/prompt.org.es',
+            },
+            {
+              label: 'FAQ',
+              to: '/business#faq',
             },
           ],
         },

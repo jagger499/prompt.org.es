@@ -112,3 +112,28 @@ consistencia:
   label: Consistencia
   permalink: /tags/consistencia
   description: Artículos sobre consistencia en IA
+
+servicios:
+  label: Servicios
+  permalink: /tags/servicios
+  description: Servicios profesionales y consultoría en ingeniería de prompts
+
+empresas:
+  label: Empresas
+  permalink: /tags/empresas
+  description: Soluciones de IA y prompt engineering para empresas corporativas
+
+consultoría:
+  label: Consultoría
+  permalink: /tags/consultoria
+  description: Servicios de consultoría especializada en ingeniería de prompts
+
+prompt-engineering:
+  label: Prompt Engineering
+  permalink: /tags/prompt-engineering
+  description: Ingeniería de prompts profesional y técnicas avanzadas
+
+ia-empresarial:
+  label: IA Empresarial
+  permalink: /tags/ia-empresarial
+  description: Inteligencia artificial aplicada en entornos corporativos y empresariales
