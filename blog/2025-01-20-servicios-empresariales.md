@@ -5,7 +5,6 @@ authors: [tl]
 tags: [servicios, empresas, consultoría, prompt-engineering, ia-empresarial, transformación-digital, optimización-ia, capacitación-corporativa]
 description: "Descubre cómo la ingeniería de prompts profesional está revolucionando las empresas. Guía completa sobre servicios corporativos, casos de éxito reales y metodologías probadas para maximizar el ROI de la IA en tu organización."
 keywords: [ingeniería de prompts empresarial, servicios corporativos IA, consultoría prompt engineering, capacitación empresarial IA, optimización prompts, transformación digital IA, ROI inteligencia artificial, Sprint prompt engineering]
-image: ./servicios-empresariales.png
 ---
 
 # 🚀 La Revolución de la Ingeniería de Prompts en el Mundo Empresarial

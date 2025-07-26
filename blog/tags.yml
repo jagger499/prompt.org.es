@@ -81,7 +81,7 @@ inteligencia-artificial:
 prompt-engineering:
   label: Prompt Engineering
   permalink: /tags/prompt-engineering
-  description: Artículos sobre ingeniería de prompts
+  description: Ingeniería de prompts profesional y técnicas avanzadas
 
 roles:
   label: Roles
@@ -128,12 +128,22 @@ consultoría:
   permalink: /tags/consultoria
   description: Servicios de consultoría especializada en ingeniería de prompts
 
-prompt-engineering:
-  label: Prompt Engineering
-  permalink: /tags/prompt-engineering
-  description: Ingeniería de prompts profesional y técnicas avanzadas
-
 ia-empresarial:
   label: IA Empresarial
   permalink: /tags/ia-empresarial
   description: Inteligencia artificial aplicada en entornos corporativos y empresariales
+
+transformación-digital:
+  label: Transformación Digital
+  permalink: /tags/transformacion-digital
+  description: Artículos sobre transformación digital empresarial con IA
+
+optimización-ia:
+  label: Optimización IA
+  permalink: /tags/optimizacion-ia
+  description: Técnicas y métodos para optimizar sistemas de inteligencia artificial
+
+capacitación-corporativa:
+  label: Capacitación Corporativa
+  permalink: /tags/capacitacion-corporativa
+  description: Programas de formación empresarial en tecnologías emergentes
