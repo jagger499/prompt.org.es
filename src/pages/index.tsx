@@ -47,6 +47,21 @@ function HomepageHeader() {
         </Heading>
         <Analytics />
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <div className="hero__buttons" style={{ marginTop: '2rem' }}>
+          <a 
+            className="button button--primary button--lg" 
+            href="/business"
+            style={{ marginRight: '1rem' }}
+          >
+            🚀 Servicios Empresariales
+          </a>
+          <a 
+            className="button button--secondary button--lg" 
+            href="/docs/intro"
+          >
+            📚 Comenzar Tutoriales
+          </a>
+        </div>
       </div>
     </header>
   );

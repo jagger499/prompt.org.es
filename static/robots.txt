@@ -3,6 +3,9 @@ User-agent: *
 Allow: /docs/prompt-basics/
 Allow: /docs/introduccion-prompting-guia-completa
 
+# Permitir páginas principales
+Allow: /business
+
 # Permitir activos
 Allow: /assets/
 Allow: /img/

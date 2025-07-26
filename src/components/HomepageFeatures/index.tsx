@@ -68,6 +68,12 @@ const FeatureList: FeatureItem[] = [
     description: 'Explora diferentes perspectivas y argumentos opuestos. Aprende a obtener análisis más equilibrados y completos considerando múltiples puntos de vista.',
     icon: '⚖️',
     link: '/docs/prompt-basics/contrarian-prompting-guia-completa'
+  },
+  {
+    title: 'Servicios Empresariales',
+    description: 'Acelera la adopción de IA en tu empresa con nuestros servicios especializados. Consultoría, formación y desarrollo personalizado de prompts para equipos corporativos.',
+    icon: '🚀',
+    link: '/business'
   }
 ];
 
