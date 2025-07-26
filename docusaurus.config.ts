@@ -124,6 +124,11 @@ const config: Config = {
           to: '/blog',
           label: 'Blog',
           position: 'left'
+        },
+        {
+          to: '/business',
+          label: 'Servicios Empresariales',
+          position: 'left'
         }
       ],
     },
