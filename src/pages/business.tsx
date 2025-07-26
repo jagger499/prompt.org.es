@@ -189,10 +189,37 @@ export default function BusinessPage() {
         },
         '& .MuiTextField-root .MuiInputBase-root': {
           backgroundColor: 'var(--ifm-background-surface-color)',
-          color: 'var(--ifm-font-color-base)'
+          color: 'var(--ifm-font-color-base)',
+          border: '2px solid transparent',
+          borderRadius: '8px',
+          '&:hover': {
+            backgroundColor: 'var(--ifm-background-color)',
+            borderColor: 'var(--ifm-color-primary-light)'
+          },
+          '&.Mui-focused': {
+            backgroundColor: 'var(--ifm-background-color)',
+            borderColor: 'var(--ifm-color-primary)',
+            boxShadow: '0 0 0 3px rgba(var(--ifm-color-primary-rgb), 0.1)'
+          }
         },
         '& .MuiTextField-root .MuiInputLabel-root': {
-          color: 'var(--ifm-font-color-base)'
+          color: 'var(--ifm-font-color-base)',
+          fontWeight: 600,
+          '&.Mui-focused': {
+            color: 'var(--ifm-color-primary)',
+            fontWeight: 700
+          }
+        },
+        '& .MuiTextField-root .MuiOutlinedInput-notchedOutline': {
+          borderColor: 'rgba(var(--ifm-font-color-base-rgb), 0.3)',
+          borderWidth: '2px'
+        },
+        '& .MuiTextField-root:hover .MuiOutlinedInput-notchedOutline': {
+          borderColor: 'var(--ifm-color-primary-light)'
+        },
+        '& .MuiTextField-root .Mui-focused .MuiOutlinedInput-notchedOutline': {
+          borderColor: 'var(--ifm-color-primary)',
+          borderWidth: '2px'
         }
       }}>
 
@@ -261,63 +288,78 @@ export default function BusinessPage() {
                 }}
               >
                 <Chip 
-                  icon={<School />} 
+                  icon={<School sx={{ color: 'white' }} />} 
                   label="Formación Especializada" 
-                  variant="outlined"
+                  variant="filled"
                   sx={{ 
                     fontSize: '1rem',
                     py: 1.5,
                     px: 2,
-                    fontWeight: 600,
-                    background: 'var(--ifm-background-surface-color)',
+                    fontWeight: 700,
+                    background: 'var(--ifm-color-primary)',
+                    color: 'white',
                     border: '2px solid var(--ifm-color-primary)',
-                    color: 'var(--ifm-font-color-base)',
+                    boxShadow: '0 4px 12px rgba(0,0,0,0.2)',
                     '&:hover': { 
-                      background: 'var(--ifm-color-primary)',
-                      color: 'white',
-                      transform: 'translateY(-2px)'
+                      background: 'var(--ifm-color-primary-dark)',
+                      borderColor: 'var(--ifm-color-primary-dark)',
+                      transform: 'translateY(-2px)',
+                      boxShadow: '0 6px 16px rgba(0,0,0,0.3)'
                     },
-                    transition: 'all 0.3s ease'
+                    transition: 'all 0.3s ease',
+                    '& .MuiChip-icon': {
+                      color: 'white'
+                    }
                   }}
                 />
                 <Chip 
-                  icon={<Business />} 
+                  icon={<Business sx={{ color: 'white' }} />} 
                   label="Consultoría Estratégica" 
-                  variant="outlined"
+                  variant="filled"
                   sx={{ 
                     fontSize: '1rem',
                     py: 1.5,
                     px: 2,
-                    fontWeight: 600,
-                    background: 'var(--ifm-background-surface-color)',
+                    fontWeight: 700,
+                    background: 'var(--ifm-color-primary)',
+                    color: 'white',
                     border: '2px solid var(--ifm-color-primary)',
-                    color: 'var(--ifm-font-color-base)',
+                    boxShadow: '0 4px 12px rgba(0,0,0,0.2)',
                     '&:hover': { 
-                      background: 'var(--ifm-color-primary)',
-                      color: 'white',
-                      transform: 'translateY(-2px)'
+                      background: 'var(--ifm-color-primary-dark)',
+                      borderColor: 'var(--ifm-color-primary-dark)',
+                      transform: 'translateY(-2px)',
+                      boxShadow: '0 6px 16px rgba(0,0,0,0.3)'
                     },
-                    transition: 'all 0.3s ease'
+                    transition: 'all 0.3s ease',
+                    '& .MuiChip-icon': {
+                      color: 'white'
+                    }
                   }}
                 />
                 <Chip 
-                  icon={<Build />} 
+                  icon={<Build sx={{ color: 'white' }} />} 
                   label="Soluciones Personalizadas" 
-                  variant="outlined"
+                  variant="filled"
                   sx={{ 
                     fontSize: '1rem',
                     py: 1.5,
                     px: 2,
-                    fontWeight: 600,
-                    background: 'var(--ifm-background-surface-color)',
+                    fontWeight: 700,
+                    background: 'var(--ifm-color-primary)',
+                    color: 'white',
                     border: '2px solid var(--ifm-color-primary)',
-                    color: 'var(--ifm-font-color-base)',
+                    boxShadow: '0 4px 12px rgba(0,0,0,0.2)',
                     '&:hover': { 
-                      background: 'var(--ifm-color-primary)',
-                      color: 'white',
-                      transform: 'translateY(-2px)'
+                      background: 'var(--ifm-color-primary-dark)',
+                      borderColor: 'var(--ifm-color-primary-dark)',
+                      transform: 'translateY(-2px)',
+                      boxShadow: '0 6px 16px rgba(0,0,0,0.3)'
                     },
-                    transition: 'all 0.3s ease'
+                    transition: 'all 0.3s ease',
+                    '& .MuiChip-icon': {
+                      color: 'white'
+                    }
                   }}
                 />
               </Stack>
@@ -1626,12 +1668,25 @@ export default function BusinessPage() {
                       px: 6, 
                       py: 2.5,
                       fontSize: '1.1rem',
-                      fontWeight: 600,
+                      fontWeight: 700,
                       borderRadius: '8px',
                       backgroundColor: 'var(--ifm-color-primary)',
+                      color: 'white',
+                      border: '2px solid var(--ifm-color-primary)',
+                      boxShadow: '0 4px 12px rgba(0,0,0,0.2)',
+                      textTransform: 'none',
                       '&:hover': {
-                        backgroundColor: 'var(--ifm-color-primary-dark)'
-                      }
+                        backgroundColor: 'var(--ifm-color-primary-dark)',
+                        borderColor: 'var(--ifm-color-primary-dark)',
+                        transform: 'translateY(-2px)',
+                        boxShadow: '0 6px 16px rgba(0,0,0,0.3)'
+                      },
+                      '&:disabled': {
+                        backgroundColor: 'rgba(var(--ifm-color-primary-rgb), 0.6)',
+                        color: 'rgba(255, 255, 255, 0.8)',
+                        borderColor: 'rgba(var(--ifm-color-primary-rgb), 0.6)'
+                      },
+                      transition: 'all 0.3s ease'
                     }}
                   >
                     {isSubmitting ? 'Enviando...' : '🚀 Solicitar Consulta Gratuita'}
